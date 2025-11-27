@@ -1,0 +1,37 @@
+body {
+      /* Stil for hele siden */
+      margin: 0; /* Ingen margin omkring siden */
+      overflow: hidden; /* Skjuler scrollbarer */
+      font-family: sans-serif; /* Vælger skrifttype */
+      background-color: #f0f8ff; /* Lyseblå baggrund */
+    }
+    #scoreboard {
+      /* Stil for pointdisplayet */
+      position: fixed; /* Fastlåst på samme sted */
+      top: 10px; /* 10 pixels fra toppen */
+      left: 10px; /* 10 pixels fra venstre side */
+      font-size: 24px; /* Stor tekststørrelse */
+      background: white; /* Hvid baggrund */
+      padding: 10px; /* Luft omkring teksten */
+      border-radius: 100px; /* Afrundede hjørner */
+      box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Skygge rundt omkring */
+    }
+    .word {
+      /* Stil for ordene */
+      position: absolute; /* Kan flyttes frit rundt */
+      font-size: 60px; /* Ordene er 20 pixels høje */
+      padding: 5px 10px; /* Luft omkring ordet */
+      border-radius: 100px; /* Lidt afrundede hjørner */
+      cursor: pointer; /* Cursor skifter til hånd ved klik */
+      user-select: none; /* Teksten kan ikke markeres */
+    }
+    .good {
+      /* Stil for gode ord (grønne) */
+      background-color: #fefefe; /* Grøn baggrund */
+      color: #2e7d32; /* Mørk grøn tekstfarge */
+    }
+    .bad {
+      /* Stil for dårlige ord (røde) */
+      background-color: #ffffff; /* Rød baggrund */
+      color: #c62828; /* Mørk rød tekstfarge */
+    }
